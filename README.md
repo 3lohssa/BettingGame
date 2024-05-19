@@ -81,6 +81,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 -------------------------
 
 第四步一樣把src/contract/BettingPool.json裡面的"address"替換掉
+-------------------------
+
 
 每次部署新合約都要這樣搞
 以上是remix部分
