@@ -90,6 +90,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 之後是cmd叫網頁出來:
 --------------------------
 cd到![image](https://github.com/3lohssa/BettingGame/assets/90048781/7fa0074e-bf73-411e-862e-0a8714027d04)betting-app就好
+阿betting-app是我把他們打成一包的資料夾名字
 -------------------------
 
 然後開始網頁是npm start
