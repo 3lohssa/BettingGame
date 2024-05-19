@@ -68,3 +68,34 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+使用教學(ganache)
+-------------------------
+第一步去remix部署 BettingGame.sol, 然後把ABI那顆複製按鈕按下![image](https://github.com/3lohssa/BettingGame/assets/90048781/d2f72b04-924f-459e-9413-6ca940f4cca2)(.json)複製下來
+-------------------------
+第二步把src/contract/BettingPool.json裡面的"ABI"替換掉
+-------------------------
+
+第三步部署合約之後去找被部署合約的地址並複製
+-------------------------
+
+第四步一樣把src/contract/BettingPool.json裡面的"address"替換掉
+
+每次部署新合約都要這樣搞
+以上是remix部分
+--------------------------
+之後是cmd叫網頁出來:
+--------------------------
+cd到![image](https://github.com/3lohssa/BettingGame/assets/90048781/7fa0074e-bf73-411e-862e-0a8714027d04)betting-app就好
+-------------------------
+
+然後開始網頁是npm start
+如果有套件啥的沒裝就裝一下
+我也不記得了
+--------------------------
+然後現在的功能是使用者有辦法丟錢進去
+但結算的時候抓不出來
+不知道是丟出來沒寫好還是怎
+反正就是在ganache上永遠沒有賺錢的交易紀錄
+大概是這樣。
